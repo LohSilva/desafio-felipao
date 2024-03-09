@@ -16,6 +16,7 @@ Criar um programa que classifica um herói em um nível com base em sua experiê
 ### Biblioteca:
 
 - **prompt-sync:** Usada para solicitar informações ao usuário.
+
 ### Declaração de variáveis:
 
 - **nomeHeroi:** Armazena o nome do herói.
@@ -41,7 +42,7 @@ Criar um programa que classifica um herói em um nível com base em sua experiê
 
 ### Saída:
 
-- A mensagem "O Herói de nome " + nomeHeroi + " está no nível de " + nivel é exibida no console
+- A mensagem "O Herói de nome " + {nomeHeroi} + " está no nível de " + {nivel}, é exibida no console.
 
 #### Exemplo de uso:
 
