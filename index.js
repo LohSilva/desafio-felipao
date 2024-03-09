@@ -1,14 +1,13 @@
+//Usada para solicitar informações ao usuário.
 const prompt = require('prompt-sync')();
 
-//Desafio Classificador de Nível de Herói
-//Declarando variável
+//Declarando as variáveis
 let nomeHeroi = prompt("Digite o nome do herói: ");
 let pontosXPHeroi= prompt("Digite a quantidade de experiência do herói: ");
 
 let nivel = "";
 
-
-//Verificando Nível do Herói
+// Verifica a quantidade de XP do herói e define o nível de acordo com a faixa de XP.
 if (pontosXPHeroi <= 1.000){
     nivel = "Ferro";
 }else if (pontosXPHeroi >= 1.001 && pontosXPHeroi <= 2.000){ 
@@ -27,5 +26,5 @@ if (pontosXPHeroi <= 1.000){
     nivel = "Radiante";
 }
 
-//Saída
+// Exibe o nome do herói e seu nível.
 console.log("O Herói de nome " + nomeHeroi + " está no nível de " + nivel);
