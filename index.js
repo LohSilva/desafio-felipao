@@ -27,4 +27,4 @@ if (pontosXPHeroi <= 1.000){
 }
 
 // Exibe o nome do herói e seu nível.
-console.log("O Herói de nome " + nomeHeroi + " está no nível de " + nivel);
+console.log("O Herói de nome " + nomeHeroi + ", está no nível " + nivel);

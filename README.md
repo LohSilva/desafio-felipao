@@ -25,8 +25,8 @@ Criar um programa que classifica um herói em um nível com base em sua experiê
 
 ### Verificação do nível do herói:
 
-- A estrutura **if...else** verifica o valor de pontosXPHeroi e define o valor de nível de acordo com a faixa de XP.
-- O nível é definido de acordo com a seguinte tabela:
+- A estrutura `if-else` verifica o valor de `pontosXPHeroi` e define o valor de nível de acordo com a faixa de XP.
+- O `nivel` é definido de acordo com a seguinte tabela:
 
 | XP do herói|Nível|
 |------------|-----|
@@ -42,18 +42,18 @@ Criar um programa que classifica um herói em um nível com base em sua experiê
 
 ### Saída:
 
-- A mensagem "O Herói de nome " + {nomeHeroi} + " está no nível de " + {nivel}, é exibida no console.
+- A mensagem "O Herói de nome " + {nomeHeroi} + ", está no nível " + {nivel}, é exibida no console.
 
 #### Exemplo de uso:
 
-- Se o usuário digitar "Ana" como nome do herói e "12.500" como quantidade de experiência, a saída do código será:
+- Se o usuário digitar "Gandalf" como nome do herói e "12.500" como quantidade de experiência, a saída do código será:
 
-- **O Herói de nome Ana está no nível de Radiante**
+- **O Herói de nome Gandalf, está no nível Radiante**
 
 
 ## 🥷Desafio:
 
-- Curso Lógica programação [DIO](https://www.dio.me/)
+- Curso Lógica de Programação [DIO](https://www.dio.me/)
 
 ## 🔎Recursos:
 
